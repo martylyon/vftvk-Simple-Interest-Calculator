@@ -6,7 +6,7 @@ function compute()
     let  currentyear =  new Date().getFullYear() + parseInt(y);
 
                 if(parseInt(p) <= 0){
-                    alert("Please enter an initial amount greater than zero");
+                    window.alert("Please enter an initial amount greater than zero");
                     principal.focus();
                     return false;
                 }
