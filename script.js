@@ -5,7 +5,7 @@ function compute()
     var y = document.getElementById("years").value
     let  currentyear =  new Date().getFullYear() + parseInt(y);
 
-                if(parseInt(p) <= 0){
+                if(parseInt(p) <= 0  || p==""){
                     window.alert("Please enter an initial amount greater than zero");
                     principal.focus();
                     return false;
