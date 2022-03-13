@@ -7,7 +7,7 @@ function compute()
 
                 if(parseInt(p) <= 0){
                     alert("Please enter an initial amount greater than zero");
-                    username.focus();
+                    principal.focus();
                     return false;
                 }
 
