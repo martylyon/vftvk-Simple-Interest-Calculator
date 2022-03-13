@@ -1,5 +1,6 @@
 <html>
     <head>
+    <title>Web App – Simple Interest Calculator</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
@@ -26,8 +27,8 @@
                     <label for="rate" class="label">Rate</label>
                 </td>
                 <td class="col-input">
-                    <input type="range" id="rate" value="0" min="0" max="10" step="0.1" onchange="updateTextInput(this.value);">
-                    <output type="number" id="textInput" value=""></output>%
+                    <input type="range" id="rate" value="3.5" min="1" max="10" step="0.1" onchange="updateTextInput(this.value);">
+                    <output type="number" id="textInput" value="3.5"></output>%
                 </td>
             </tr>
             <tr>
@@ -41,6 +42,11 @@
                         <option value=3>3</option>
                         <option value=4>4</option>
                         <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                        <option value=10>10</option>
                     </select>
                 </td>
             </tr>
